@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <script src="index.js"></script>
+    <style>
+        .container {
+        display: grid;
+        grid-template-columns: repeat(16, 1fr);
+        grid-template-rows: repeat(16, 1fr);
+        gap: 2px;
+        }
+        .square {
+        background-color: #cc2f2f;
+        border: 1px solid #945f5f;
+        }
+        .square {
+        background-color: #ccc;
+        border: 1px solid #999;
+        }
+        .square.hovered {
+        background-color: #ff0000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+</body>
+</html>
